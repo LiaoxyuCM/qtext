@@ -3,4 +3,4 @@ const getQueryParam = (name) => {
     return params.get(name);
 };
 
-document.write(getQueryParam("text"));
+document.write(`<p>${getQueryParam("text")}</p>`);
