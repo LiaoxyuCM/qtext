@@ -13,5 +13,5 @@ document.write(text != null ? text :
 );
 
 document.querySelector("#urlEncode").addEventListener("click", () => {
-    document.querySelector("#urlText") = ‌encodeURIComponent(document.querySelector("#urlText"));
+    document.querySelector("#urlText").value = ‌encodeURIComponent(document.querySelector("#urlText").value);
 });
